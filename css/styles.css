@@ -1,0 +1,273 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --white: #fff;
+    --black: #000;
+    --secondary-bcg-color: #F5F4FA;
+    --bcg-for-hw2: #F5F5F5;
+    --footer-bgc: #2F303A;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* HEADER */ 
+.header {
+    background-color: var(--white);
+}
+
+/* СТИЛІ ДЛЯ СТУДІЇ */
+
+body { 
+    color: var(--primary-text-color) ;
+    background-color: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    color: var(--black);
+    font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+}
+.web {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+}
+
+
+/* SITE NAV */
+.site-nav .link {
+    color: var(--secondary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+
+.site-nav .link:current {
+    color: var(--accent-color);
+}
+
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+.contact-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+
+.contact-nav .link:hover, 
+.contact-nav .link:focus {
+    color: var(--accent-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+
+/* HERO */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+  color: var(--white);
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero-button {
+    color:var(--white);
+    background-color:var(--accent-color);
+    border-color: transparent;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1,87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+/* SECTION */
+.feature-list, .work {
+    background-color: var(--white);
+}
+
+.section-title
+{
+    color: var(--secondary-text-color);
+}
+
+/*  FEATURES*/
+.feature-list .title {
+    color:var(--secondary-text-color);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.feature-list .text {
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+}
+
+/* WORK */
+
+.work .work-title, .team-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+font-size: 36px;
+line-height: 1,17;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+
+/* КОМАНДА*/
+.team {
+    background-color:var(--secondary-bcg-color);
+}
+
+
+.name {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+}
+
+.job {
+    color: var(--primary-text-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+}
+
+
+
+/* ФУТЕР */
+
+.contacts-item {
+    color: var(--primary-text-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.02em;
+}
+
+.location {
+    font-style: normal;
+    color:var(--white);
+    font-weight: 400;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+}
+
+.footer {
+    background-color: var(--footer-bgc);
+}
+.lower-logo {
+    color: var(--white);
+    font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+}
+
+
+
+
+/* СТИЛІЗАЦІЯ СТОРІНКИ ПОРТФОЛІО*/
+.main-section {
+    background-color: var(--white);
+}
+.portfolio-button {
+color: var(--secondary-text-color);
+background-color: var(--secondary-bcg-color);
+border-color: transparent;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,63;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
+.card-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.card-area {
+    color: var(--primary-text-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,88;
+letter-spacing: 0.03em;
+}
+
+.card-description {
+    color: var(--black); 
+    /* ЧОРНИЙ - ТИМЧАСОВИЙ КОЛІР, ПОТІМ ТРЕБА ЗАМІНИТИ НА БІЛИЙ */
+    font-weight: 400;
+font-size: 18px;
+line-height: 1,5;
+letter-spacing: 0.03em;
+}
