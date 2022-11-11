@@ -7,7 +7,7 @@
     --secondary-bcg-color: #F5F4FA;
     --bcg-for-hw2: #F5F5F5;
     --footer-bgc: #2F303A;
-
+    --footer-text-color:rgba(255,255,255,0.6)
 }
 
 a {
@@ -40,17 +40,15 @@ ul {
 .logo {
     color: var(--black);
     font-family: 'Raleway', sans-serif;
-font-weight: 700;
 font-size: 26px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 }
 .web {
     color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
-font-weight: 700;
 font-size: 26px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
@@ -60,7 +58,7 @@ letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
@@ -69,7 +67,7 @@ letter-spacing: 0.02em;
 color: var(--accent-color);
 font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
@@ -81,21 +79,21 @@ letter-spacing: 0.02em;
     color: var(--accent-color);
 }
 
-.contact-nav .link {
+.contact-nav .uplink {
     color: var(--primary-text-color);
-    font-weight: 500;
+font-weight: 500;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.contact-nav .link:hover, 
-.contact-nav .link:focus {
+.contact-nav .uplink:hover, 
+.contact-nav .uplink:focus {
     color: var(--accent-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1,14;
-letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 /* HERO */
@@ -108,7 +106,7 @@ letter-spacing: 0.02em;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -119,9 +117,8 @@ text-transform: uppercase;
     background-color:var(--accent-color);
     border-color: transparent;
 font-style: normal;
-font-weight: 700;
 font-size: 16px;
-line-height: 1,87;
+line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
@@ -141,17 +138,15 @@ letter-spacing: 0.06em;
 /*  FEATURES*/
 .feature-list .title {
     color:var(--secondary-text-color);
-
-font-weight: 700;
 font-size: 14px;
-line-height: 1,14;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .feature-list .text {
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
@@ -159,9 +154,8 @@ letter-spacing: 0.03em;
 
 .work .work-title, .team-title {
     color: var(--secondary-text-color);
-    font-weight: 700;
 font-size: 36px;
-line-height: 1,17;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -175,17 +169,16 @@ letter-spacing: 0.03em;
 
 .name {
     color: var(--secondary-text-color);
-    font-weight: 400;
+    font-weight: 500;
 font-size: 16px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
 .job {
     color: var(--primary-text-color);
-    font-weight: 400;
 font-size: 16px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
@@ -193,20 +186,26 @@ letter-spacing: 0.03em;
 
 /* ФУТЕР */
 
-.contacts-item {
-    color: var(--primary-text-color);
-    font-weight: 500;
-font-size: 14px;
-line-height: 1,14;
-letter-spacing: 0.02em;
+.contact-nav .downlink{
+    color: var(--footer-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.contact-nav .downlink:hover, 
+.contact-nav .downlink:focus {
+    color: var(--accent-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .location {
     font-style: normal;
     color:var(--white);
-    font-weight: 400;
 font-size: 14px;
-line-height: 1,71;
+line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
@@ -216,9 +215,8 @@ letter-spacing: 0.03em;
 .lower-logo {
     color: var(--white);
     font-family: 'Raleway', sans-serif;
-font-weight: 700;
 font-size: 26px;
-line-height: 1,19;
+line-height: 1.19;
 letter-spacing: 0.03em;
 }
 
@@ -236,7 +234,7 @@ border-color: transparent;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,63;
+line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -249,7 +247,6 @@ letter-spacing: 0.03em;
 
 .card-title {
     color: var(--secondary-text-color);
-    font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
@@ -257,17 +254,15 @@ letter-spacing: 0.06em;
 
 .card-area {
     color: var(--primary-text-color);
-    font-weight: 400;
 font-size: 16px;
-line-height: 1,88;
+line-height: 1.88;
 letter-spacing: 0.03em;
 }
 
 .card-description {
     color: var(--black); 
     /* ЧОРНИЙ - ТИМЧАСОВИЙ КОЛІР, ПОТІМ ТРЕБА ЗАМІНИТИ НА БІЛИЙ */
-    font-weight: 400;
 font-size: 18px;
-line-height: 1,5;
+line-height: 1.5;
 letter-spacing: 0.03em;
 }
